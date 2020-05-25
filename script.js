@@ -27,7 +27,7 @@ function flip() {
 
 
 function check() {
-  var isMatch = firstCard === secondCard;
+  var isMatch = firstCard.childNodes[1].getAttribute('src') === secondCard.childNodes[1].getAttribute('src');
   isMatch ? succes() : fail();
 }
 
