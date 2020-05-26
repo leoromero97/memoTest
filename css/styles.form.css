@@ -33,6 +33,65 @@ html {
   margin-bottom: 20%;
 }
 
+
+/*
+.dark,
+.day {
+  height: 3vh;
+}
+
+.switch {
+  height: 4.4vh;
+  background: #343d5b;
+  border-radius: 1000px;
+  -webkit-border-radius: 1000px;
+  -moz-border-radius: 1000px;
+  -ms-border-radius: 1000px;
+  -o-border-radius: 1000px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+}
+
+.switch::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 6vh;
+  height: 6vh;
+  background: #f1f1f1;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  top: 0;
+  left: 0;
+  right: unset;
+  transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease all;
+  -webkit-transition: 0.3s ease all;
+  -moz-transition: 0.3s ease all;
+  -ms-transition: 0.3s ease all;
+  -o-transition: 0.3s ease all;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.switch:active {
+  background-color: orange;
+}
+
+.switch:active::after {
+  right: 0;
+  left: unset;
+} */
+
 .input,
 .label,
 .submit {
