@@ -46,7 +46,6 @@ function fail() {
   }, 1000);
 }
 
-
 function reset() {
   [isFlipped, lock] = [false, false];
   [firstCard, secondCard] = [null, null];
