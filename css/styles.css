@@ -97,7 +97,7 @@ h1 {
 .front,
 .back {
   background-color: #3463ff;
-  width: 90%;
+  width: 80%;
   height: 400%;
   padding: 10px;
   position: absolute;
@@ -112,7 +112,7 @@ h1 {
 
 .front {
   transform: rotateY(180deg);
-} 
+}
 
 .copyRight {
   padding-top: 2%;
@@ -133,7 +133,7 @@ h1 {
     -moz-transform: translateX(1000px);
     -ms-transform: translateX(1000px);
     -o-transform: translateX(1000px);
-}
+  }
 
   100% {
     opacity: 1;
@@ -141,43 +141,48 @@ h1 {
   }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:600px) {
   .containerGame {
     width: 98%;
     max-width: 100vw;
+    justify-content: flex-end;
   }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .front,
+  .back {
+    width: 60%;
+    height: 200%;
+    padding: 6px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
 
   .copyRight {
     font-size: 0.6em;
   }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:300px) {
   h1 {
     font-size: 1em;
   }
 
-  .card {
-    width: 12%;
-    height: 2vh;
-  }
+  .front,
+  .back {
+    width: 50%;
+    height: 160%;
+    padding: 2px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
 }
-
-@media screen and (max-height:700px) {
-  h1 {
-    font-size: 1em;
-  }
-
-  .card {
-    width: 13%;
-    height: 16px;
-  }
-}
-
-@media screen and (max-height:500px) {
-  .card {
-    width: 14%;
-    height: 2vh;
-    margin-top: 0px;
-  }
 }
